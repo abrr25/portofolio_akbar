@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Saya</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #f50ae5, #25043f);
+        margin: 0;
+        padding: 20px;
+        color: #000000;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: #9e5585;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        color: #222;
+      }
+
+      p {
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+
+      strong {
+        color: #dadada;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+      }
+      .btn:hover {
+        background: #45a049;
+      }
+
+      .edu ul,
+      .hobi ul {
+        list-style: none;
+        padding: 0;
+      }
+      .edu li,
+      .hobi li {
+        background: #f7f7f7;
+        margin: 6px 0;
+        padding: 10px;
+        border-radius: 6px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .gallery {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 12px;
+      }
+      .gallery img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tentang Saya</h1>
+      <p>
+        Halo, perkenalkan nama saya
+        <strong>Muhammad Akbar Rizqiullah Razak</strong>. Saya seorang mahasiswa
+        yang memiliki ketertarikan dalam bidang teknologi komputer. Saya suka
+        belajar hal-hal baru, terutama seputar teknologi, desain, dan
+        pengembangan web.
+      </p>
+
+      <div class="edu">
+        <h2>Riwayat Pendidikan</h2>
+        <ul>
+          <li>SD Negeri 2 Sungguminasa (2012 - 2018)</li>
+          <li>SMPIT AL-FITYAN SCHOOL GOWA (2018 - 2021)</li>
+          <li>MAN 2 KOTA MAKASSAR (2021 - 2024)</li>
+          <li>
+            Universitas negeri makassar, Teknik komputer (2024 - Sekarang)
+          </li>
+        </ul>
+      </div>
+
+      <div class="hobi">
+        <h2>Hobi</h2>
+        <ul>
+          <li>Motoran</li>
+          <li>Bermain game</li>
+          <li>Kepantai</li>
+          <li>Berkumpul dengan teman & keluarga</li>
+        </ul>
+      </div>
+
+      <h2>Galeri Foto</h2>
+      <div class="gallery">
+        <img src="foto/foto1.jpg" alt="Foto 1" />
+        <img src="foto/fto.jpg" alt="Foto 2" />
+        <img src="foto/foto3.jpg" alt="Foto 3" />
+        <img src="foto/foto4.jpg" alt="Foto 4" />
+      </div>
+
+      <div class="btn-container">
+        <a class="btn" href="bio.html">⬅ Kembali</a>
+      </div>
+    </div>
+  </body>
+</html>
