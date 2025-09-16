@@ -8,8 +8,8 @@ bar yag bisa kalian tekan untuk membuka sosial media atau berpindah ke halaman t
 
 penggunaan kode masih sama dengan pertemuan sebelum nya yang dimana menggunakan color dan navigasi bar untuk sebagai portal menuju akun sosial media atau halaman tentang saya, tetapi pada 
 kali ini saya memperbaharui foto dan tema dari website portofolio saya yang menggunakan kode "color =... , background-color=.... " adajuga penambahan image " image src= foto/....(sesuai nama file kalian)"
-contoh : "<img src="foto/......png" alt="Instagram" /> Instagram"
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+contoh : ""<img src="foto/......png" alt="Instagram" "/> Instagram"
+----------------------------------------------------------------------------------------------------------------------------
 untuk navigasi bar nya menggunakan 
 contoh :
 "<nav class="navbar"">
@@ -24,6 +24,6 @@ contoh :
         </li>
       </ul>
     </nav>"
-    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------------------------
 sekian untuk hari ini selebih nya bisa dilihat pada pertemua sebelum nya untuk membaca penjelasan lebih jelas nya 
 terimakasih telah membuka laman ini 
