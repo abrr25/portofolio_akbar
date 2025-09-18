@@ -1,9 +1,9 @@
 portfolio-akbar/
 │
-├── biografi.html      # Halaman utama biografi
-├── tentang.html       # Halaman detail tentang saya
-├── style.css          # File CSS untuk styling
-└── foto/              # Folder untuk menyimpan foto profil & galeri
+├── biografi.html      
+├── tentang.html       
+├── style.css         
+└── foto/             
     ├── foto_akbar.jpg
     ├── foto1.jpg
     ├── foto2.jpg
