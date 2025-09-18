@@ -1,29 +1,58 @@
-pada pertemuan kali ini tidak saya tidak banyak melakukan ubahan pada program saya, hanya ada beberapa penyesuaian warna dan foto pada pertemuan sebelumnya 
-yang dimana saya menggunakan warna yang cukup terang dan kontras, sekarang saya mengubahnya menjadi warna yang bernuansa sedikit gelap seperti ungu tua dan untuk radasi hitam
+portfolio-akbar/
+│
+├── biografi.html      # Halaman utama biografi
+├── tentang.html       # Halaman detail tentang saya
+├── style.css          # File CSS untuk styling
+└── foto/              # Folder untuk menyimpan foto profil & galeri
+    ├── foto_akbar.jpg
+    ├── foto1.jpg
+    ├── foto2.jpg
+    ├── foto3.jpg
+    └── foto4.jpg
+# 🌐 Portofolio Sederhana - Muhammad Akbar Rizqiullah Razak
 
-pada projek ini saya membuat portofolio saya sebagai mahasiswa teknik komputer universitas negeri makassar angkatan 2024
+Repositori ini berisi kodingan sederhana untuk membuat **website portofolio pribadi** dengan HTML & CSS.  
+Website terdiri dari dua halaman: **Biografi** dan **Tentang Saya**.
 
-pada portofolio saya menampilkan foto, latar belakang singkat, link menuju sosial media dan juga ada beberapa foto di galeri website yang bisa kalian kunjungi dan beberapa mavigasi
-bar yag bisa kalian tekan untuk membuka sosial media atau berpindah ke halaman tentang saya .
+---
 
-penggunaan kode masih sama dengan pertemuan sebelum nya yang dimana menggunakan color dan navigasi bar untuk sebagai portal menuju akun sosial media atau halaman tentang saya, tetapi pada 
-kali ini saya memperbaharui foto dan tema dari website portofolio saya yang menggunakan kode "color =... , background-color=.... " adajuga penambahan image " image src= foto/....(sesuai nama file kalian)"
-contoh : ""<img src="foto/......png" alt="Instagram" "/> Instagram"
-----------------------------------------------------------------------------------------------------------------------------
-untuk navigasi bar nya menggunakan 
-contoh :
-"<nav class="navbar"">
-      <ul>
-        <li>
-          <a
-            href=""https://www.instag......com/akbar_rzqiullah?ir"
-            target="_blank)"
-          >
-            <img src=""foto/.......png" alt= "Instagram" /> Instagram
-          </a>
-        </li>
-      </ul>
-    </nav>"
-    ------------------------------------------------------------------------------------------------------------------------
-sekian untuk hari ini selebih nya bisa dilihat pada pertemua sebelum nya untuk membaca penjelasan lebih jelas nya 
-terimakasih telah membuka laman ini 
+## 📂 Struktur File
+- **biografi.html** → Halaman utama yang menampilkan nama, foto profil, deskripsi singkat, dan tombol menuju halaman "Tentang Saya".
+- **tentang.html** → Halaman lanjutan berisi riwayat pendidikan, daftar hobi, dan galeri foto.
+- **style.css** → File stylesheet yang mengatur tampilan halaman agar lebih menarik.
+- **/foto** → Folder gambar (foto profil dan foto galeri).
+
+---
+
+## 📝 Penjelasan kode
+
+ 1. biografi.html
+- Bagian utama berisi:
+  - **Foto profil** berbentuk lingkaran yang diletakkan di pojok kiri atas.
+  - **Kontainer (card)** berisi nama, deskripsi singkat, dan tombol navigasi.
+- Menggunakan CSS eksternal dari `style.css`.
+
+ 2. tentang.html
+- Bagian utama berisi:
+  - **Deskripsi pribadi** dalam elemen paragraf `<p>`.
+  - **Riwayat Pendidikan** dalam list `<ul>`.
+  - **Hobi** yang ditampilkan dengan gaya serupa.
+  - **Galeri Foto** menggunakan CSS Grid.
+  - **Tombol kembali** ke halaman biografi.
+
+ 3. style.css
+Beberapa aturan penting:
+- `font-family` → untuk menentukan jenis font yang dipakai.
+- `background: linear-gradient(...)` → memberi efek gradasi pada latar.
+- `color` → mengatur warna teks.
+- `text-align` → untuk meratakan teks (tengah).
+- `min-height: 100vh` → agar kontainer memenuhi layar.
+- `display: flex` dan `grid` → untuk mengatur tata letak (foto, galeri).
+- `border-radius` dan `box-shadow` → membuat tampilan lebih modern dan tidak monoton.
+- `.btn` → styling tombol dengan warna gradasi + animasi hover.
+
+ 4. foto/
+- Menyimpan gambar yang dipanggil oleh `<img src="...">` pada HTML.
+
+---
+
