@@ -55,4 +55,9 @@ Beberapa aturan penting:
 - Menyimpan gambar yang dipanggil oleh `<img src="...">` pada HTML.
 
 ---
+ 🔗 Navigasi
+Website ini menggunakan navigasi sederhana:
 
+1. Dari **halaman Biografi** ke **Tentang Saya**  
+   ```html
+   <a class="btn" href="tentang.html">Lihat Tentang Saya</a>
